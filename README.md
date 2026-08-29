@@ -1,50 +1,62 @@
-# grammys-website-analytics
+# GRAMMYs Website Performance Analysis
 
-Web analytics case study evaluating user engagement and audience behavior following The Recording Academy's website split.
+A web analytics case study evaluating user engagement, audience behavior, and digital strategy following The Recording Academy's website split.
 
-## Business Question
+[View Full Analysis](grammys_website_analysis.ipynb) | [View Presentation](presentation/grammys_website_analysis.pdf)
 
-Should The Recording Academy keep GRAMMY.com and RecordingAcademy.com as separate websites, merge them back together, or consider an alternative strategy?
+---
 
-## Tools
+## Business Problem
 
-- Python
-- pandas
-- Plotly
-- Jupyter Notebook
+In 2022, The Recording Academy split its digital presence into two websites: GRAMMY.com, primarily serving music fans and awards-related audiences, and RecordingAcademy.com, serving the organization's professional and industry-facing audiences.
+
+This project evaluates whether the split improved website performance and addresses the following business question:
+
+**Should The Recording Academy keep the two websites separate, merge them back together, or pursue an alternative strategy?**
+
+## Tools & Skills
+
+- **Python**
+- **pandas** — data cleaning, aggregation, and analysis
+- **Plotly** — interactive data visualization
+- **Jupyter Notebook**
+- Exploratory Data Analysis (EDA)
+- Audience segmentation
+- Web analytics
+- Data storytelling
 
 ## Analysis
 
-This project analyzes website traffic, engagement metrics, and audience demographics to evaluate how the website split affected user behavior.
+I analyzed website performance across four areas:
 
-Key metrics include:
-
-- Bounce rate
-- Average time on site
-- Pages per session
-- Visitor demographics
-- Traffic patterns
+1. **Traffic Patterns** — Compared daily traffic and quantified traffic spikes surrounding GRAMMY Awards nights.
+2. **User Engagement** — Evaluated bounce rate, average session duration, and pages per session before and after the website split.
+3. **Audience Demographics** — Compared age distributions across GRAMMY.com and RecordingAcademy.com.
+4. **Competitive Benchmarking** — Compared GRAMMY.com with the American Music Awards website, including traffic volume and device usage.
 
 ## Key Findings
 
-- RecordingAcademy.com showed stronger overall engagement, including a lower bounce rate and longer average time on site.
-- Pages per session increased on both websites after the split, suggesting stronger user engagement.
-- Visitors aged 25–44 were more likely to visit RecordingAcademy.com.
-- Visitors aged 55+ were more likely to visit GRAMMY.com, although this age group represented a smaller share of total visitors.
-- GRAMMY Awards Night generated substantially higher traffic than a typical day.
+- **Event-driven traffic:** GRAMMY Awards nights generated approximately **43× higher traffic** than non-awards days.
+- **Lower bounce rate:** RecordingAcademy.com had a **34% bounce rate**, compared with 40% for GRAMMY.com and 42% for the pre-split combined site.
+- **Longer engagement:** RecordingAcademy.com had the longest average session duration at **2.14 minutes**, compared with 1.38 minutes for GRAMMY.com and 1.71 minutes for the combined site.
+- **More content exploration:** Pages per session increased on both websites following the split.
+- **Distinct audiences:** Visitors aged **25–44** showed a stronger preference for RecordingAcademy.com, while visitors aged **55+** were more likely to visit GRAMMY.com.
+- **Mobile-first audience:** Mobile devices accounted for the majority of traffic in the competitive awards-site comparison.
 
 ## Recommendation
 
-Maintain the two websites as separate platforms while using differentiated content strategies for their distinct audiences.
+**Maintain GRAMMY.com and RecordingAcademy.com as separate websites while developing differentiated content strategies for their respective audiences.**
 
-The split appears to improve user engagement while allowing each site to serve different visitor needs.
+The post-split engagement metrics and audience differences suggest that the two platforms serve distinct user needs. Rather than merging the websites, The Recording Academy can strengthen cross-site navigation while optimizing GRAMMY.com for fan-facing content and RecordingAcademy.com for professional and industry-focused content.
 
 ## Project Files
 
-- Data analysis notebook
-- Data visualizations
-- Presentation summarizing findings and recommendations
+| File | Description |
+|---|---|
+| [Full Analysis](grammys_website_analysis.ipynb) | Python analysis, visualizations, and business findings |
+| [Presentation](presentation/grammys_website_analysis.pdf) | Executive summary of findings and recommendations |
+| `datasets/` | Datasets used in the analysis |
 
 ## Author
 
-Ruofei Zhang
+**Lauren Zhang**
